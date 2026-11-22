@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090909"><meta name="description" content="BHAGRAJ AI SHAYARI - Hindi Shayari, Attitude, Love, Sad and Motivational Status.">
+<title>BHAGRAJ AI SHAYARI</title><link rel="manifest" href="./manifest.json"><link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">B</span><span>BHAGRAJ <b>AI SHAYARI</b></span></a><button id="installBtn" class="install-btn" hidden>इंस्टॉल करें</button></header>
+<main class="container">
+<section class="hero"><div class="eyebrow">शब्दों में एहसास • दिल से दिल तक</div><h1>अपनी बात को <span>शायरी</span> में कहें</h1><p>अपना मूड चुनें और पढ़ें दिल को छू लेने वाली हिंदी शायरी।</p></section>
+<section class="panel generator"><div class="section-heading"><div><span class="eyebrow">आपके लिए खास</span><h2>शायरी जनरेटर</h2></div><span class="sparkle">✦</span></div>
+<label for="category">शायरी की कैटेगरी</label><select id="category"><option value="attitude">एटीट्यूड शायरी</option><option value="sad">दर्द भरी शायरी</option><option value="love">लव शायरी</option><option value="motivation">मोटिवेशनल शायरी</option><option value="life">जिंदगी की सच्चाई</option></select>
+<label for="topic">कोई शब्द या विषय (वैकल्पिक)</label><input id="topic" type="text" maxlength="40" placeholder="जैसे: दोस्ती, मेहनत, विश्वास">
+<button id="generateBtn" class="primary-btn">✦ नई शायरी बनाएं</button>
+<article class="poetry-card" aria-live="polite"><div class="poetry-label">आज के अल्फ़ाज़</div><p id="poetryText">खामोशी को मेरी कमजोरी मत समझना,<br>वक्त आने पर जवाब भी शानदार होगा।</p><div class="poetry-actions"><button id="copyBtn" class="small-btn">कॉपी करें</button><button id="shareBtn" class="small-btn">शेयर करें</button><button id="saveBtn" class="small-btn">♡ सेव</button></div></article>
+<p id="message" class="message" role="status"></p><p class="note">नोट: अभी यह ऐप अपने साथ दिए गए शायरी संग्रह से शायरी चुनता है। असली AI सेवा जोड़ने के लिए सुरक्षित सर्वर/API की जरूरत होगी।</p></section>
+<section class="panel"><div class="section-heading"><div><span class="eyebrow">अपनी पसंद चुनें</span><h2>शायरी की दुनिया</h2></div></div><div class="category-grid">
+<button class="category-card" data-category="attitude"><span>⚡</span><b>Attitude</b><small>रॉयल अंदाज़</small></button><button class="category-card" data-category="sad"><span>🥀</span><b>दर्द भरी</b><small>दिल के जज़्बात</small></button><button class="category-card" data-category="love"><span>❤️</span><b>Love</b><small>मोहब्बत के अल्फ़ाज़</small></button><button class="category-card" data-category="motivation"><span>🔥</span><b>Motivation</b><small>हौसले की उड़ान</small></button><button class="category-card" data-category="life"><span>🌿</span><b>जिंदगी</b><small>कड़वी सच्चाई</small></button></div></section>
+<section class="panel"><div class="section-heading"><div><span class="eyebrow">आपकी कलेक्शन</span><h2>पसंदीदा शायरी</h2></div><span id="savedCount" class="count">0</span></div><div id="favorites" class="favorites"><p class="empty">अभी कोई शायरी सेव नहीं है। पसंद आए तो ♡ सेव दबाएँ।</p></div></section>
+</main><footer><span>© <span id="year"></span> BHAGRAJ</span><span>दिल की बात, शायरी के साथ ✦</span></footer><script src="./app.js" defer></script>
+</body></html>
